@@ -1,0 +1,144 @@
+{
+  "project_name": "Craft Car Detailing",
+  "archetype": "LUXURY_AND_ARTISAN_CRAFT",
+  "theme_mode": "dark_luxury_with_warm_accents",
+  "art_direction": {
+    "concept": "The Atelier of Automotive Interiors: Woman-Owned Haute Detailing",
+    "fusion_influences": [
+      "Swiss Haute Horlogerie & Savile Row bespoke tailoring precision",
+      "Warm Cognac & Obsidian leather atelier textures",
+      "Cinematic Awwwards-grade kinetic scrollytelling & masked typography reveals"
+    ],
+    "vibe": "Uncompromising artisanal precision, tactile luxury, bespoke female craftsmanship in an industry dominated by generic garages."
+  },
+  "typography": {
+    "headings": {
+      "font_family": "Playfair Display, Cormorant Garamond, serif",
+      "h1": "text-4xl sm:text-5xl lg:text-6xl font-light tracking-tight leading-[1.08]",
+      "h2": "text-2xl sm:text-3xl lg:text-4xl font-normal tracking-tight leading-tight",
+      "h3": "text-xl sm:text-2xl font-medium tracking-normal",
+      "h4": "text-lg sm:text-xl font-medium tracking-normal"
+    },
+    "body": {
+      "font_family": "Outfit, Manrope, sans-serif",
+      "classes": "text-base sm:text-lg text-neutral-300 font-light leading-relaxed"
+    },
+    "mono_accents": {
+      "font_family": "JetBrains Mono, monospace",
+      "classes": "text-xs tracking-[0.25em] uppercase font-mono text-[#D4AF37]"
+    }
+  },
+  "color_palette": {
+    "background_primary": "#0A0A0A",
+    "background_secondary": "#121212",
+    "background_elevated": "#18181A",
+    "surface_glass": "rgba(24, 24, 26, 0.75)",
+    "accent_gold": "#D4AF37",
+    "accent_cognac": "#C2844B",
+    "accent_sand": "#E8D8C8",
+    "text_primary": "#F8F8F8",
+    "text_muted": "#A1A1AA",
+    "border_subtle": "rgba(255, 255, 255, 0.08)",
+    "border_gold_glow": "rgba(212, 175, 55, 0.25)"
+  },
+  "hero_and_motion_strategy": {
+    "kinetic_intro": "Masked line-by-line reveal using framer-motion stagger variants on page load",
+    "smooth_scroll": "Lenis momentum smooth scrolling integration",
+    "parallax_moment": "3D interactive tilt card / depth mouse-reactive spotlight on the interior hero showcase",
+    "slow_editorial_marquee": "Continuous slow-drift artisanal manifesto ribbon with luxury badges and values",
+    "hover_states": "Micro-haptics with subtle gold border glow, image scale (scale-105), and custom cursor accent"
+  },
+  "sections_breakdown": [
+    {
+      "id": "navbar",
+      "component_path": "/app/frontend/src/components/Navbar.js",
+      "description": "Crystal glass floating sticky navigation with logo badge, curated links (Manifesto, Services, Atelier Gallery, Reviews, Inquiries), and 'Book Session' CTA."
+    },
+    {
+      "id": "hero",
+      "component_path": "/app/frontend/src/components/Hero.js",
+      "description": "Awwwards-level kinetic hero with line-by-line mask reveal, tactile gold badges 'Woman-Owned & Operated Interior Atelier', bespoke CTAs, and interactive focal spotlight interior teaser."
+    },
+    {
+      "id": "marquee",
+      "component_path": "/app/frontend/src/components/EditorialMarquee.js",
+      "description": "Slow editorial ribbon sliding across the screen with bespoke values: 'HAND-STITCHED PRECISION • STEAM & STEAM OIL INFUSION • pH-NEUTRAL LEATHER NOURISHMENT • FEMALE ARTISANSHIP • ZERO HARSH ODORS'."
+    },
+    {
+      "id": "manifesto_about",
+      "component_path": "/app/frontend/src/components/Manifesto.js",
+      "description": "Numbered manifesto chapters (Chapter 01: The Touch of Care, Chapter 02: Biological & Material Purity, Chapter 03: The Woman-Led Difference) with high-density editorial storytelling and clipped spotlight visuals."
+    },
+    {
+      "id": "services",
+      "component_path": "/app/frontend/src/components/Services.js",
+      "description": "Tiered bespoke interior packages (The Alcantara Restorative, Bespoke Aniline Leather Spa, Concierge Interior Preservation, Clean Air & Ozone Ionization) with interactive package selector, detail drawers, and direct booking pre-fill."
+    },
+    {
+      "id": "interactive_spotlight_gallery",
+      "component_path": "/app/frontend/src/components/Gallery.js",
+      "description": "Curated spotlight gallery with zoom modal, before/after inspection slider, and macro leather stitch close-ups."
+    },
+    {
+      "id": "testimonials",
+      "component_path": "/app/frontend/src/components/Testimonials.js",
+      "description": "Editorial quote carousels and verified client accolades (Porsche, Aston Martin, Tesla, Range Rover owners)."
+    },
+    {
+      "id": "contact_and_enquiry_form",
+      "component_path": "/app/frontend/src/components/EnquiryForm.js",
+      "description": "Full-fledged booking inquiry form connected to FastAPI backend (`/api/enquiries`), with vehicle make/model, interior leather condition selector, preferred package, date picker, and admin enquiry drawer to view stored submissions."
+    },
+    {
+      "id": "footer",
+      "component_path": "/app/frontend/src/components/Footer.js",
+      "description": "High-contrast massive serif typographic footer with studio location, operating hours, direct concierge hotline, and discreet admin portal link."
+    }
+  ],
+  "image_urls": {
+    "hero_car_interior": {
+      "url": "https://images.unsplash.com/photo-1605437241278-c1806d14a4d9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODF8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBjYXIlMjBpbnRlcmlvciUyMGxlYXRoZXIlMjBkZXRhaWxpbmd8ZW58MHx8fHwxNzg4ODI0MzkzfDA&ixlib=rb-4.1.0&q=85",
+      "alt": "Bespoke diamond stitched quilted leather Mercedes AMG cockpit interior",
+      "category": "hero"
+    },
+    "artisan_detailer_in_action": {
+      "url": "https://images.unsplash.com/photo-1597725168791-7fb4446fc438?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDF8MHwxfHNlYXJjaHw0fHx3b21hbiUyMGFydGlzYW4lMjB3b3JraW5nJTIwZGV0YWlsaW5nJTIwbHV4dXJ5JTIwY2FyfGVufDB8fHx8MTc4ODgyNDM5M3ww&ixlib=rb-4.1.0&q=85",
+      "alt": "Woman master detailer hand-finishing vehicle surface",
+      "category": "about_manifesto"
+    },
+    "cognac_leather_cockpit": {
+      "url": "https://images.unsplash.com/photo-1661336878257-1c51b5af959a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODF8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBjYXIlMjBpbnRlcmlvciUyMGxlYXRoZXIlMjBkZXRhaWxpbmd8ZW58MHx8fHwxNzg4ODI0MzkzfDA&ixlib=rb-4.1.0&q=85",
+      "alt": "Cognac stitched steering wheel and artisan instrument binnacle",
+      "category": "services"
+    },
+    "convertible_tan_upholstery": {
+      "url": "https://images.unsplash.com/photo-1662316208133-55e8e16f89fb?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODF8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBjYXIlMjBpbnRlcmlvciUyMGxlYXRoZXIlMjBkZXRhaWxpbmd8ZW58MHx8fHwxNzg4ODI0MzkzfDA&ixlib=rb-4.1.0&q=85",
+      "alt": "Restored rich saddle tan leather seats in sunlight",
+      "category": "gallery"
+    },
+    "vintage_ribbed_leather_seat": {
+      "url": "https://images.unsplash.com/photo-1601673632676-12f89e430aa3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTJ8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBjYXIlMjB1cGhvbHN0ZXJ5JTIwc3RpdGNoJTIwbGVhdGhlcnxlbnwwfHx8fDE3ODg4MjQ0MDF8MA&ixlib=rb-4.1.0&q=85",
+      "alt": "Restored ribbed fluted cognac leather seat bolster",
+      "category": "gallery"
+    },
+    "perforated_luxury_leather": {
+      "url": "https://images.unsplash.com/photo-1605437211365-7257403ea287?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODF8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBjYXIlMjBpbnRlcmlvciUyMGxlYXRoZXIlMjBkZXRhaWxpbmd8ZW58MHx8fHwxNzg4ODI0MzkzfDA&ixlib=rb-4.1.0&q=85",
+      "alt": "Obsidian soft-touch door panel and stitching detail",
+      "category": "services"
+    }
+  },
+  "instructions_to_main_agent": [
+    "Install lenis (@studio-freight/lenis or lenis) or implement smooth momentum scroll using framer-motion / Lenis hook.",
+    "Ensure backend in FastAPI has SQLite/in-memory storage for enquiries POST /api/enquiries and GET /api/enquiries.",
+    "Add an Admin Enquiry Viewer modal or drawer on the frontend so the client can inspect all submitted bookings.",
+    "Implement the kinetic line-by-line masked reveal in the Hero component using framer-motion.",
+    "Ensure all interactive buttons, inputs, tabs, and filters have explicit `data-testid` attributes.",
+    "Avoid generic bootstrap cards; style with border-border/40, dark glassmorphism, subtle gold rim lighting, and generous spacing (p-8 to p-16)."
+  ],
+  "UNIVERSAL_GUIDELINES_FOR_MAIN_AGENT": {
+    "no_ai_slop": "Use asymmetric layouts, luxury serif headers (Playfair Display / Cormorant), mono labels, and micro-interactions.",
+    "contrast_rule": "Every text item on dark backgrounds must be high-contrast and legible (#F8F8F8 for headings, #A1A1AA for body).",
+    "motion": "Add hover lift, glow border transitions, and smooth entrance reveals on scroll using framer-motion.",
+    "toasts": "Use Sonner for toast notifications on form submission and enquiry booking."
+  }
+}
