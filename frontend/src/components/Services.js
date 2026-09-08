@@ -6,7 +6,7 @@ const packages = [
   {
     id: "basic",
     n: "I",
-    name: "The Basic Detail",
+    name: "Craft Interior Detailing",
     price: "$100",
     duration: "Interior, by appointment",
     blurb: "A complete interior refresh — every surface cleaned, dressed and hand-finished.",
