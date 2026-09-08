@@ -33,11 +33,15 @@ Build a website highlighting my business "Craft Car Detailing" featuring a woman
 ## Backlog
 - P0: Email notifications on new enquiry (Resend integration)
 - P1: Before/after comparison slider in gallery
-- P1: Real business details (address, phone, service area, pricing confirmation)
 - P2: Password protection for Atelier Ledger
 - P2: Instagram/social feed integration, online payment/deposit via Stripe
 
+## Real Business Details (added 2026-07)
+- 9 Third Street, Unit 1, West St. Paul, Manitoba
+- 1-204-999-9010 — By Appointment Only
+- Basic Detail $100; Pet Hair/Oil/Cap Removal add-on from $25; Odor Removal add-on from $25
+
 ## Next Tasks
-1. Collect real business info (location, phone, hours) and replace placeholders
-2. Add Resend email notifications for new enquiries
-3. Add before/after slider to gallery
+1. Add Resend email notifications for new enquiries
+2. Add before/after slider to gallery
+3. Password-protect the Atelier Ledger

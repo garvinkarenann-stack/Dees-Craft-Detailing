@@ -8,10 +8,9 @@ const API = `${process.env.REACT_APP_BACKEND_URL}/api`;
 
 const conditions = ["Pristine — keep it so", "Light Wear", "Loved & Lived-In", "Restoration Needed"];
 const packageOptions = [
-  "The Alcantara Restorative",
-  "Bespoke Aniline Leather Spa",
-  "Concierge Interior Preservation",
-  "Clean Air & Ozone Ionisation",
+  "The Basic Detail — $100",
+  "Basic + Pet Hair, Oil & Cap Removal (add-on)",
+  "Basic + Odor Removal (add-on)",
   "Not sure — advise me",
 ];
 
@@ -28,6 +27,11 @@ export default function EnquiryForm({ selectedPackage, onPackageChange }) {
   useEffect(() => {
     if (selectedPackage) setForm((f) => ({ ...f, package: selectedPackage }));
   }, [selectedPackage]);
+
+  const selectOptions =
+    selectedPackage && !packageOptions.includes(selectedPackage)
+      ? [selectedPackage, ...packageOptions]
+      : packageOptions;
 
   const set = (k) => (e) => setForm((f) => ({ ...f, [k]: e.target.value }));
 
@@ -72,22 +76,22 @@ export default function EnquiryForm({ selectedPackage, onPackageChange }) {
             <div className="flex items-center gap-5">
               <Phone className="w-4 h-4 text-[#D4AF37] shrink-0" strokeWidth={1.5} />
               <div>
-                <p className="mono-label !text-[#A1A1AA]">Concierge Line</p>
-                <p className="font-light mt-1">(555) 014-2718</p>
+                <p className="mono-label !text-[#A1A1AA]">Call or Text</p>
+                <p className="font-light mt-1">1-204-999-9010</p>
               </div>
             </div>
             <div className="flex items-center gap-5">
               <Clock className="w-4 h-4 text-[#D4AF37] shrink-0" strokeWidth={1.5} />
               <div>
-                <p className="mono-label !text-[#A1A1AA]">Atelier Hours</p>
-                <p className="font-light mt-1">Tue – Sat, 8:00 – 18:00</p>
+                <p className="mono-label !text-[#A1A1AA]">Hours</p>
+                <p className="font-light mt-1">By Appointment Only</p>
               </div>
             </div>
             <div className="flex items-center gap-5">
               <MapPin className="w-4 h-4 text-[#D4AF37] shrink-0" strokeWidth={1.5} />
               <div>
                 <p className="mono-label !text-[#A1A1AA]">The Studio</p>
-                <p className="font-light mt-1">Unit 4, The Old Tannery Works</p>
+                <p className="font-light mt-1">9 Third Street, Unit 1, West St. Paul, Manitoba</p>
               </div>
             </div>
           </div>
@@ -141,7 +145,7 @@ export default function EnquiryForm({ selectedPackage, onPackageChange }) {
                 data-testid="enquiry-package-select"
               >
                 <option value="">Select a package…</option>
-                {packageOptions.map((p) => <option key={p} value={p}>{p}</option>)}
+                {selectOptions.map((p) => <option key={p} value={p}>{p}</option>)}
               </select>
             </div>
           </div>

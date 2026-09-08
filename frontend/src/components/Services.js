@@ -4,45 +4,36 @@ import { Plus } from "lucide-react";
 
 const packages = [
   {
-    id: "alcantara",
+    id: "basic",
     n: "I",
-    name: "The Alcantara Restorative",
-    price: "from $189",
-    duration: "≈ 2.5 hours",
-    blurb: "Dry-vapour lift and re-texturing for suede, Alcantara and headliners.",
-    includes: ["Dry-vapour steam extraction", "Nap re-texturing & brushing", "Stain mapping & spot treatment", "Anti-static fibre finish"],
+    name: "The Basic Detail",
+    price: "$100",
+    duration: "Interior, by appointment",
+    blurb: "A complete interior refresh — every surface cleaned, dressed and hand-finished.",
+    includes: ["Full cabin vacuum & wipe-down", "Dash, console & trim detailing", "Interior glass polished", "Mats & carpets cleaned"],
   },
   {
-    id: "leather-spa",
+    id: "pet-oil-cap",
     n: "II",
-    name: "Bespoke Aniline Leather Spa",
-    price: "from $249",
-    duration: "≈ 3 hours",
-    blurb: "Deep cleanse, pH-neutral nourishment and hand-buffed hide revival.",
-    includes: ["Two-stage pH-neutral cleanse", "Lanolin-rich conditioning", "Hand-buffed matte finish", "UV & dye-transfer guard"],
+    name: "Pet Hair, Oil & Cap Removal",
+    price: "add-on from $25",
+    duration: "With any detail",
+    blurb: "Stubborn pet hair, oil spots and cap marks lifted from fabric and carpet.",
+    includes: ["Deep pet-hair extraction", "Oil & grease spot treatment", "Cap mark removal", "Fabric-safe finish"],
   },
   {
-    id: "preservation",
+    id: "odor",
     n: "III",
-    name: "Concierge Interior Preservation",
-    price: "from $389",
-    duration: "Full day atelier",
-    blurb: "The complete cabin restoration — leather, carpet, glass, trim and air.",
-    includes: ["Every surface, every seam", "Carpet & boot extraction", "Wood, piano-black & chrome detail", "Leather spa included", "Collection & return available"],
-  },
-  {
-    id: "ozone",
-    n: "IV",
-    name: "Clean Air & Ozone Ionisation",
-    price: "from $129",
-    duration: "≈ 90 minutes",
-    blurb: "Neutralise odours at the molecular level — smoke, pets, mildew gone.",
-    includes: ["Cabin ozone ionisation cycle", "Vent & duct sanitisation", "Cabin filter inspection", "Zero-fragrance finish"],
+    name: "Odor Removal",
+    price: "add-on from $25",
+    duration: "With any detail",
+    blurb: "Smoke, pet and mildew odours neutralised — never masked.",
+    includes: ["Full-cabin odour treatment", "Vent & fabric refresh", "Neutral, fragrance-free result"],
   },
 ];
 
 export default function Services({ onReserve }) {
-  const [open, setOpen] = useState("leather-spa");
+  const [open, setOpen] = useState("basic");
 
   return (
     <section id="services" className="py-28 lg:py-40 bg-[#121212] border-y border-white/[0.07]" data-testid="services-section">
@@ -57,11 +48,11 @@ export default function Services({ onReserve }) {
           <div>
             <p className="mono-label mb-6">The Services</p>
             <h2 className="font-display font-light text-3xl sm:text-4xl lg:text-5xl leading-tight max-w-xl">
-              Four rituals of <span className="italic text-[#D4AF37]">restoration</span>.
+              Considered care, <span className="italic text-[#D4AF37]">honest pricing</span>.
             </h2>
           </div>
           <p className="text-[#A1A1AA] font-light max-w-sm text-sm sm:text-base">
-            Each package is a considered ceremony, performed by hand in our studio or at your door.
+            One woman, one cabin at a time — by appointment at our West St. Paul studio.
           </p>
         </motion.div>
 
@@ -123,7 +114,7 @@ export default function Services({ onReserve }) {
                           className="mono-label border border-[#D4AF37]/50 text-[#D4AF37] px-7 py-3.5 hover:bg-[#D4AF37] hover:text-[#0A0A0A] transition-colors duration-300 whitespace-nowrap"
                           data-testid={`service-reserve-${p.id}`}
                         >
-                          Reserve this Ritual
+                          Reserve this Service
                         </button>
                       </div>
                     </motion.div>

@@ -1,12 +1,12 @@
 import { Asterisk } from "lucide-react";
 
 const items = [
-  "Hand-Stitched Precision",
-  "Steam & Oil Infusion",
-  "pH-Neutral Leather Nourishment",
-  "Female Artisanship",
-  "Zero Harsh Odours",
-  "Concierge Collection & Return",
+  "Hand-Finished Interiors",
+  "Pet Hair & Odor Removal",
+  "Woman-Owned & Operated",
+  "By Appointment Only",
+  "West St. Paul, Manitoba",
+  "Details from $100",
 ];
 
 export default function EditorialMarquee() {

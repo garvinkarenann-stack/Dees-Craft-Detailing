@@ -12,16 +12,16 @@ export default function Footer({ onOpenLedger, onNavigate }) {
           <div>
             <p className="mono-label mb-5">The Studio</p>
             <p className="text-[#A1A1AA] font-light leading-relaxed text-sm">
-              Unit 4, The Old Tannery Works<br />
-              Tue – Sat, 8:00 – 18:00<br />
+              9 Third Street, Unit 1<br />
+              West St. Paul, Manitoba<br />
               By appointment only
             </p>
           </div>
           <div>
             <p className="mono-label mb-5">Concierge</p>
             <p className="text-[#A1A1AA] font-light leading-relaxed text-sm">
-              (555) 014-2718<br />
-              hello@craftcardetailing.com
+              1-204-999-9010<br />
+              Call or text to book
             </p>
           </div>
           <div>
