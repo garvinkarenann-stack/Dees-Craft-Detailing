@@ -9,7 +9,7 @@ const API = `${process.env.REACT_APP_BACKEND_URL}/api`;
 const conditions = ["Pristine — keep it so", "Light Wear", "Loved & Lived-In", "Restoration Needed"];
 const packageOptions = [
   "The Basic Detail — $100",
-  "Basic + Pet Hair, Oil & Cap Removal (add-on)",
+  "Basic + Pet Hair, Oil & Sap Removal (add-on)",
   "Basic + Odor Removal (add-on)",
   "Not sure — advise me",
 ];

@@ -15,11 +15,11 @@ const packages = [
   {
     id: "pet-oil-cap",
     n: "II",
-    name: "Pet Hair, Oil & Cap Removal",
+    name: "Pet Hair, Oil & Sap Removal",
     price: "add-on from $25",
     duration: "With any detail",
-    blurb: "Stubborn pet hair, oil spots and cap marks lifted from fabric and carpet.",
-    includes: ["Deep pet-hair extraction", "Oil & grease spot treatment", "Cap mark removal", "Fabric-safe finish"],
+    blurb: "Stubborn pet hair, oil spots and tree sap lifted from fabric and carpet.",
+    includes: ["Deep pet-hair extraction", "Oil & grease spot treatment", "Sap mark removal", "Fabric-safe finish"],
   },
   {
     id: "odor",
