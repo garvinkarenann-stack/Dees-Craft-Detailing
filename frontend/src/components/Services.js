@@ -7,7 +7,7 @@ const packages = [
     id: "basic",
     n: "I",
     name: "Craft Interior Detailing",
-    price: "$100",
+    price: "starts at $150",
     duration: "Interior, by appointment",
     blurb: "A complete interior refresh — every surface cleaned, dressed and hand-finished.",
     includes: ["Full cabin vacuum & wipe-down", "Dash, console & trim detailing", "Interior glass polished", "Mats & carpets cleaned"],

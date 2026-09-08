@@ -6,7 +6,7 @@ const items = [
   "Woman-Owned & Operated",
   "By Appointment Only",
   "West St. Paul, Manitoba",
-  "Details from $100",
+  "Details from $150",
 ];
 
 export default function EditorialMarquee() {

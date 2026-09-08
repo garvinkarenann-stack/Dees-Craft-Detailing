@@ -39,7 +39,7 @@ Build a website highlighting my business "Craft Car Detailing" featuring a woman
 ## Real Business Details (added 2026-07)
 - 9 Third Street, Unit 1, West St. Paul, Manitoba
 - 1-204-999-9010 — By Appointment Only
-- Craft Interior Detailing $100; Pet Hair/Oil/Sap Removal add-on from $25; Odor Removal add-on from $25
+- Craft Interior Detailing starts at $150; Pet Hair/Oil/Sap Removal add-on from $25; Odor Removal add-on from $25
 
 ## Next Tasks
 1. Add Resend email notifications for new enquiries
