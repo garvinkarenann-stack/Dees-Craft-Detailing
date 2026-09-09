@@ -1,6 +1,6 @@
 import { ArrowUpRight } from "lucide-react";
 
-export default function Footer({ onOpenLedger, onNavigate }) {
+export default function Footer({ onNavigate }) {
   return (
     <footer className="border-t border-white/[0.07] bg-[#0A0A0A]" data-testid="footer">
       <div className="max-w-7xl mx-auto px-6 lg:px-12 pt-24 pb-10">
@@ -42,17 +42,10 @@ export default function Footer({ onOpenLedger, onNavigate }) {
           </div>
         </div>
 
-        <div className="mt-16 pt-8 border-t border-white/[0.07] flex flex-wrap items-center justify-between gap-4">
+        <div className="mt-16 pt-8 border-t border-white/[0.07]">
           <p className="text-[#A1A1AA]/60 text-xs font-light tracking-wide">
             © {new Date().getFullYear()} Deanna's Craft Car Detailing — Woman-Owned &amp; Operated Interior Expert
           </p>
-          <button
-            onClick={onOpenLedger}
-            className="mono-label !text-[#A1A1AA]/60 hover:!text-[#D4AF37] transition-colors"
-            data-testid="footer-ledger-btn"
-          >
-            Expert Ledger
-          </button>
         </div>
       </div>
     </footer>
