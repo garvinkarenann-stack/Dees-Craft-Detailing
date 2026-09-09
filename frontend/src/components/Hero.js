@@ -57,7 +57,7 @@ export default function Hero({ onNavigate }) {
             data-testid="hero-badge"
           >
             <Sparkles className="w-3.5 h-3.5 text-[#D4AF37]" strokeWidth={1.5} />
-            <span className="mono-label">Woman-Owned &amp; Operated Interior Atelier</span>
+            <span className="mono-label">Woman-Owned &amp; Operated Interior Expert</span>
           </motion.div>
 
           <motion.h1

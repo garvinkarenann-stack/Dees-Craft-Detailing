@@ -16,7 +16,7 @@ Build a website highlighting my business "Craft Car Detailing" featuring a woman
 
 ## User Personas
 - Luxury car owner seeking premium interior detailing
-- Business owner (woman) reviewing booking enquiries via the Atelier Ledger
+- Business owner (woman) reviewing booking enquiries via the Expert Ledger
 
 ## Implemented (2026-07)
 - Kinetic hero: masked line-by-line serif reveal, mouse-reactive 3D tilt + spotlight card, scroll parallax backdrop
@@ -27,8 +27,8 @@ Build a website highlighting my business "Craft Car Detailing" featuring a woman
 - Gallery: asymmetric spotlight grid with lightbox modal
 - Testimonials: auto-rotating editorial quote carousel with controls
 - Enquiry form: name/email/phone/vehicle/condition/package/date/notes, saved to MongoDB, toast feedback
-- Atelier Ledger: footer link opens admin viewer modal listing all enquiries
-- Enquiry form removed (2026-07): booking section now drives call/text to 1-204-999-9010; Atelier Ledger retained for past enquiries
+- Expert Ledger: footer link opens admin viewer modal listing all enquiries
+- Enquiry form removed (2026-07): booking section now drives call/text to 1-204-999-9010; Expert Ledger retained for past enquiries
 - Gallery section removed (2026-07) per owner request
 - Testimonials/client accolades removed (2026-07) per owner request
 - Lenis momentum scrolling, framer-motion reveals throughout, data-testids on all interactive elements
@@ -36,7 +36,7 @@ Build a website highlighting my business "Craft Car Detailing" featuring a woman
 ## Backlog
 - P0: Email notifications on new enquiry (Resend integration)
 - P1: Before/after comparison slider in gallery
-- P2: Password protection for Atelier Ledger
+- P2: Password protection for Expert Ledger
 - P2: Instagram/social feed integration, online payment/deposit via Stripe
 
 ## Real Business Details (added 2026-07)
@@ -47,4 +47,4 @@ Build a website highlighting my business "Craft Car Detailing" featuring a woman
 ## Next Tasks
 1. Add Resend email notifications for new enquiries
 2. Add before/after slider to gallery
-3. Password-protect the Atelier Ledger
+3. Password-protect the Expert Ledger

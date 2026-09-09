@@ -38,7 +38,7 @@ export default function EnquiryLedger({ open, onClose }) {
           >
             <div className="flex items-center justify-between p-8 border-b border-white/[0.08]">
               <div>
-                <p className="mono-label mb-2">Atelier Ledger</p>
+                <p className="mono-label mb-2">Expert Ledger</p>
                 <h3 className="font-display text-2xl font-light">Client Enquiries</h3>
               </div>
               <button

@@ -25,7 +25,7 @@ export default function Footer({ onOpenLedger, onNavigate }) {
             </p>
           </div>
           <div>
-            <p className="mono-label mb-5">Atelier</p>
+            <p className="mono-label mb-5">Expert</p>
             <div className="flex flex-col items-start gap-3">
               {[["manifesto", "Manifesto"], ["services", "Services"], ["enquiry", "Book a Session"]].map(([id, label]) => (
                 <button
@@ -44,14 +44,14 @@ export default function Footer({ onOpenLedger, onNavigate }) {
 
         <div className="mt-16 pt-8 border-t border-white/[0.07] flex flex-wrap items-center justify-between gap-4">
           <p className="text-[#A1A1AA]/60 text-xs font-light tracking-wide">
-            © {new Date().getFullYear()} Deanna's Craft Car Detailing — Woman-Owned &amp; Operated Interior Atelier
+            © {new Date().getFullYear()} Deanna's Craft Car Detailing — Woman-Owned &amp; Operated Interior Expert
           </p>
           <button
             onClick={onOpenLedger}
             className="mono-label !text-[#A1A1AA]/60 hover:!text-[#D4AF37] transition-colors"
             data-testid="footer-ledger-btn"
           >
-            Atelier Ledger
+            Expert Ledger
           </button>
         </div>
       </div>
