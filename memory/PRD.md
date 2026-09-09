@@ -28,6 +28,7 @@ Build a website highlighting my business "Craft Car Detailing" featuring a woman
 - Testimonials: auto-rotating editorial quote carousel with controls
 - Enquiry form: name/email/phone/vehicle/condition/package/date/notes, saved to MongoDB, toast feedback
 - Atelier Ledger: footer link opens admin viewer modal listing all enquiries
+- Enquiry form removed (2026-07): booking section now drives call/text to 1-204-999-9010; Atelier Ledger retained for past enquiries
 - Lenis momentum scrolling, framer-motion reveals throughout, data-testids on all interactive elements
 
 ## Backlog
