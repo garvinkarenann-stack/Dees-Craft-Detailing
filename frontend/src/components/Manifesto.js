@@ -5,22 +5,22 @@ const chapters = [
     n: "01",
     title: "The Touch of Care",
     body: "A cabin is the most intimate space a machine offers. We treat it as such — working slowly, by hand, with brushes and steam rather than harsh machines. Nothing is rushed; every seam is read like a page.",
-    img: "https://images.unsplash.com/photo-1549064233-945d7063292f?q=80&w=1600&auto=format&fit=crop",
-    alt: "Modern black and red car interior in daylight",
+    img: "https://images.unsplash.com/photo-1782005267962-2ab47e2bc57c?q=80&w=1600&auto=format&fit=crop",
+    alt: "Interior of an Acura with steering wheel and dashboard",
   },
   {
     n: "02",
     title: "Material Purity",
     body: "Leather, wood, carpet and trims each demand their own chemistry. I use only the best cleaners, treatments, and conditioners for each project — never mask rather than mend.",
-    img: "https://images.unsplash.com/photo-1583573278124-e8d4fd3edf3c?q=80&w=1600&auto=format&fit=crop",
-    alt: "Modern black and grey BMW car interior",
+    img: "https://images.unsplash.com/photo-1671539272911-860f2445e106?q=80&w=1600&auto=format&fit=crop",
+    alt: "Spacious three-row SUV interior with the door open",
   },
   {
     n: "03",
     title: "The Woman-Led Difference",
     body: "In an industry of rushed garages, I've built an expert practice. Woman-owned and woman-run, Craft operates on patience, discretion and an obsession with the details others walk past. Your car returns not just clean — composed.",
-    img: "https://images.unsplash.com/photo-1636763086447-e28e410d840b?q=80&w=1600&auto=format&fit=crop",
-    alt: "Modern car interior with steering wheel and dashboard",
+    img: "https://images.unsplash.com/photo-1779312081887-f5448000c287?q=80&w=1600&auto=format&fit=crop",
+    alt: "Ford truck interior with steering wheel and blue ambient lighting",
   },
 ];
 
