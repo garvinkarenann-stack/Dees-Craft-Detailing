@@ -6,7 +6,6 @@ import Hero from "@/components/Hero";
 import EditorialMarquee from "@/components/EditorialMarquee";
 import Manifesto from "@/components/Manifesto";
 import Services from "@/components/Services";
-import Testimonials from "@/components/Testimonials";
 import BookingSection from "@/components/BookingSection";
 import Footer from "@/components/Footer";
 import EnquiryLedger from "@/components/EnquiryLedger";
@@ -46,7 +45,6 @@ function App() {
         <EditorialMarquee />
         <Manifesto />
         <Services onReserve={() => scrollTo("enquiry")} />
-        <Testimonials />
         <BookingSection />
       </main>
       <Footer onOpenLedger={() => setLedgerOpen(true)} onNavigate={scrollTo} />

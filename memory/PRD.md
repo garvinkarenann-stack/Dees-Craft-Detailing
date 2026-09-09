@@ -30,6 +30,7 @@ Build a website highlighting my business "Craft Car Detailing" featuring a woman
 - Atelier Ledger: footer link opens admin viewer modal listing all enquiries
 - Enquiry form removed (2026-07): booking section now drives call/text to 1-204-999-9010; Atelier Ledger retained for past enquiries
 - Gallery section removed (2026-07) per owner request
+- Testimonials/client accolades removed (2026-07) per owner request
 - Lenis momentum scrolling, framer-motion reveals throughout, data-testids on all interactive elements
 
 ## Backlog
