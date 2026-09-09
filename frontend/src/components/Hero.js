@@ -1,7 +1,7 @@
 import { Sparkles } from "lucide-react";
 
 const HERO_IMG =
-  "https://images.unsplash.com/photo-1605437241278-c1806d14a4d9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODF8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBjYXIlMjBpbnRlcmlvciUyMGxlYXRoZXIlMjBkZXRhaWxpbmd8ZW58MHx8fHwxNzg4ODI0MzkzfDA&ixlib=rb-4.1.0&q=85";
+  "https://images.unsplash.com/photo-1625690180114-5530b1304127?q=80&w=1920&auto=format&fit=crop";
 
 export default function Hero({ onNavigate }) {
   return (
@@ -58,12 +58,12 @@ export default function Hero({ onNavigate }) {
           <div className="relative gold-rim" data-testid="hero-tilt-card">
             <img
               src={HERO_IMG}
-              alt="Diamond-stitched quilted leather cockpit interior"
+              alt="Modern luxury car interior"
               className="w-full aspect-[4/5] object-cover"
               data-testid="hero-image"
             />
             <div className="absolute bottom-0 inset-x-0 p-6 bg-gradient-to-t from-[#0A0A0A] to-transparent">
-              <p className="mono-label">Nº 001 — Quilted Hide Study</p>
+              <p className="mono-label">Nº 001 — Modern Cabin Study</p>
             </div>
           </div>
         </div>

@@ -5,22 +5,22 @@ const chapters = [
     n: "01",
     title: "The Touch of Care",
     body: "A cabin is the most intimate space a machine offers. We treat it as such — working slowly, by hand, with brushes and steam rather than harsh machines. Nothing is rushed; every seam is read like a page.",
-    img: "https://images.unsplash.com/photo-1597725168791-7fb4446fc438?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDF8MHwxfHNlYXJjaHw0fHx3b21hbiUyMGFydGlzYW4lMjB3b3JraW5nJTIwZGV0YWlsaW5nJTIwbHV4dXJ5JTIwY2FyfGVufDB8fHx8MTc4ODgyNDM5M3ww&ixlib=rb-4.1.0&q=85",
-    alt: "Woman master detailer hand-finishing a vehicle",
+    img: "https://images.unsplash.com/photo-1549064233-945d7063292f?q=80&w=1600&auto=format&fit=crop",
+    alt: "Modern black and red car interior in daylight",
   },
   {
     n: "02",
     title: "Material Purity",
     body: "Leather, wood, carpet and trims each demand their own chemistry. I use only the best cleaners, treatments, and conditioners for each project — never mask rather than mend.",
-    img: "https://images.unsplash.com/photo-1601673632676-12f89e430aa3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTJ8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBjYXIlMjB1cGhvbHN0ZXJ5JTIwc3RpdGNoJTIwbGVhdGhlcnxlbnwwfHx8fDE3ODg4MjQ0MDF8MA&ixlib=rb-4.1.0&q=85",
-    alt: "Restored ribbed cognac leather seat bolster",
+    img: "https://images.unsplash.com/photo-1583573278124-e8d4fd3edf3c?q=80&w=1600&auto=format&fit=crop",
+    alt: "Modern black and grey BMW car interior",
   },
   {
     n: "03",
     title: "The Woman-Led Difference",
     body: "In an industry of rushed garages, I've built an expert practice. Woman-owned and woman-run, Craft operates on patience, discretion and an obsession with the details others walk past. Your car returns not just clean — composed.",
-    img: "https://images.unsplash.com/photo-1662316208133-55e8e16f89fb?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODF8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBjYXIlMjBpbnRlcmlvciUyMGxlYXRoZXIlMjBkZXRhaWxpbmd8ZW58MHx8fHwxNzg4ODI0MzkzfDA&ixlib=rb-4.1.0&q=85",
-    alt: "Restored saddle tan leather seats in sunlight",
+    img: "https://images.unsplash.com/photo-1636763086447-e28e410d840b?q=80&w=1600&auto=format&fit=crop",
+    alt: "Modern car interior with steering wheel and dashboard",
   },
 ];
 
