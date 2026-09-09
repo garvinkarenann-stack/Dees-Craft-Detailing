@@ -5,8 +5,8 @@ const chapters = [
     n: "01",
     title: "The Touch of Care",
     body: "A cabin is the most intimate space a machine offers. We treat it as such — working slowly, by hand, with brushes and steam rather than harsh machines. Nothing is rushed; every seam is read like a page.",
-    img: "https://images.unsplash.com/photo-1782005267962-2ab47e2bc57c?q=80&w=1600&auto=format&fit=crop",
-    alt: "Interior of an Acura with steering wheel and dashboard",
+    img: "https://images.unsplash.com/photo-1549064233-945d7063292f?q=80&w=1600&auto=format&fit=crop",
+    alt: "Black and red two-tone car interior in daylight",
   },
   {
     n: "02",
@@ -19,8 +19,8 @@ const chapters = [
     n: "03",
     title: "The Woman-Led Difference",
     body: "In an industry of rushed garages, I've built an expert practice. Woman-owned and woman-run, Craft operates on patience, discretion and an obsession with the details others walk past. Your car returns not just clean — composed.",
-    img: "https://images.unsplash.com/photo-1779312081887-f5448000c287?q=80&w=1600&auto=format&fit=crop",
-    alt: "Ford truck interior with steering wheel and blue ambient lighting",
+    img: "https://images.unsplash.com/photo-1631433048545-6c18c7fc9bde?q=80&w=1600&auto=format&fit=crop",
+    alt: "Modern Ford truck cab interior with seats, dashboard and infotainment screen",
   },
 ];
 
