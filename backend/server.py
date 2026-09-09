@@ -49,7 +49,7 @@ class EnquiryCreate(BaseModel):
 
 @api_router.get("/")
 async def root():
-    return {"message": "Craft Car Detailing API"}
+    return {"message": "Deanna's Craft Car Detailing API"}
 
 
 @api_router.post("/enquiries", response_model=Enquiry)

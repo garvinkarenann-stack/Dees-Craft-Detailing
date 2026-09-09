@@ -4,8 +4,8 @@ export default function Footer({ onOpenLedger, onNavigate }) {
   return (
     <footer className="border-t border-white/[0.07] bg-[#0A0A0A]" data-testid="footer">
       <div className="max-w-7xl mx-auto px-6 lg:px-12 pt-24 pb-10">
-        <h2 className="font-display font-light leading-[0.95] text-[13vw] lg:text-[9rem] text-white/[0.92]" data-testid="footer-wordmark">
-          Craft <span className="italic text-[#D4AF37]">Car Detailing</span>
+        <h2 className="font-display font-light leading-[0.98] text-[11vw] lg:text-[6.5rem] text-white/[0.92]" data-testid="footer-wordmark">
+          Deanna's Craft <span className="italic text-[#D4AF37]">Car Detailing</span>
         </h2>
 
         <div className="mt-16 grid sm:grid-cols-3 gap-12 border-t border-white/[0.07] pt-12">
@@ -44,7 +44,7 @@ export default function Footer({ onOpenLedger, onNavigate }) {
 
         <div className="mt-16 pt-8 border-t border-white/[0.07] flex flex-wrap items-center justify-between gap-4">
           <p className="text-[#A1A1AA]/60 text-xs font-light tracking-wide">
-            © {new Date().getFullYear()} Craft Car Detailing — Woman-Owned &amp; Operated Interior Atelier
+            © {new Date().getFullYear()} Deanna's Craft Car Detailing — Woman-Owned &amp; Operated Interior Atelier
           </p>
           <button
             onClick={onOpenLedger}

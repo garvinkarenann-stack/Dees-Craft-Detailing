@@ -85,7 +85,7 @@ export default function Hero({ onNavigate }) {
             transition={{ duration: 0.9, delay: 1.5 }}
             className="mt-8 max-w-md text-[#A1A1AA] font-light leading-relaxed text-base sm:text-lg"
           >
-            Craft Car Detailing is a woman-owned studio devoted to a single discipline: the
+            Deanna's Craft Car Detailing is a woman-owned studio devoted to a single discipline: the
             meticulous restoration and preservation of automotive interiors. Every stitch,
             every hide, every surface — finished by hand.
           </motion.p>

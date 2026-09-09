@@ -37,7 +37,7 @@ export default function Navbar({ onNavigate }) {
             C
           </span>
           <span className="font-display text-lg tracking-wide">
-            Craft <span className="italic text-[#D4AF37]">Car Detailing</span>
+            Deanna's Craft <span className="italic text-[#D4AF37]">Car Detailing</span>
           </span>
         </button>
 

@@ -1,4 +1,4 @@
-# Craft Car Detailing — PRD
+# Deanna's Craft Car Detailing — PRD
 
 ## Original Problem Statement
 Build a website highlighting my business "Craft Car Detailing" featuring a woman owned a woman run business detailing the interior of cars.
