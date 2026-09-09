@@ -6,7 +6,6 @@ import Hero from "@/components/Hero";
 import EditorialMarquee from "@/components/EditorialMarquee";
 import Manifesto from "@/components/Manifesto";
 import Services from "@/components/Services";
-import Gallery from "@/components/Gallery";
 import Testimonials from "@/components/Testimonials";
 import BookingSection from "@/components/BookingSection";
 import Footer from "@/components/Footer";
@@ -47,7 +46,6 @@ function App() {
         <EditorialMarquee />
         <Manifesto />
         <Services onReserve={() => scrollTo("enquiry")} />
-        <Gallery />
         <Testimonials />
         <BookingSection />
       </main>

@@ -27,7 +27,7 @@ export default function Footer({ onOpenLedger, onNavigate }) {
           <div>
             <p className="mono-label mb-5">Atelier</p>
             <div className="flex flex-col items-start gap-3">
-              {[["manifesto", "Manifesto"], ["services", "Services"], ["gallery", "Gallery"], ["enquiry", "Book a Session"]].map(([id, label]) => (
+              {[["manifesto", "Manifesto"], ["services", "Services"], ["enquiry", "Book a Session"]].map(([id, label]) => (
                 <button
                   key={id}
                   onClick={() => onNavigate(id)}
