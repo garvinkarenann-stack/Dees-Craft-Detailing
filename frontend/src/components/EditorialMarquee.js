@@ -10,24 +10,21 @@ const items = [
 ];
 
 export default function EditorialMarquee() {
-  const row = [...items, ...items];
   return (
     <section
-      className="border-y border-white/[0.07] bg-[#121212] py-6 overflow-hidden"
+      className="border-y border-white/[0.07] bg-[#121212] py-6"
       data-testid="editorial-marquee"
     >
-      <div className="marquee-track flex w-max items-center">
-        {[0, 1].map((half) => (
-          <div key={half} className="flex items-center shrink-0">
-            {row.map((item, i) => (
-              <span key={`${half}-${i}`} className="flex items-center">
-                <span className="font-display italic text-xl sm:text-2xl text-[#E8D8C8]/80 whitespace-nowrap px-8">
-                  {item}
-                </span>
-                <Asterisk className="w-4 h-4 text-[#D4AF37] shrink-0" strokeWidth={1.5} />
-              </span>
-            ))}
-          </div>
+      <div className="flex flex-wrap items-center justify-center gap-y-3 px-6">
+        {items.map((item, i) => (
+          <span key={i} className="flex items-center">
+            <span className="font-display italic text-lg sm:text-xl text-[#E8D8C8]/80 whitespace-nowrap px-6">
+              {item}
+            </span>
+            {i < items.length - 1 && (
+              <Asterisk className="w-4 h-4 text-[#D4AF37] shrink-0" strokeWidth={1.5} />
+            )}
+          </span>
         ))}
       </div>
     </section>

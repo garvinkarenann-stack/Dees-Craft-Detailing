@@ -138,9 +138,7 @@
     border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);
     background: var(--bg-alt); padding: 1.5rem 0; overflow: hidden;
   }
-  .marquee__track { display: flex; width: max-content; animation: drift 55s linear infinite; }
-  .marquee__track:hover { animation-play-state: paused; }
-  @keyframes drift { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+  .marquee__track { display: flex; flex-wrap: wrap; justify-content: center; row-gap: 0.5rem; padding: 0 1.5rem; }
   .marquee__item {
     display: flex; align-items: center; white-space: nowrap;
     font-family: 'Playfair Display', serif; font-style: italic;
@@ -398,12 +396,6 @@
   <!-- ================= MARQUEE ================= -->
   <div class="marquee" aria-hidden="true">
     <div class="marquee__track">
-      <span class="marquee__item"><span>Hand-Finished Interiors</span></span>
-      <span class="marquee__item"><span>Pet Hair &amp; Odor Removal</span></span>
-      <span class="marquee__item"><span>Woman-Owned &amp; Operated</span></span>
-      <span class="marquee__item"><span>By Appointment Only</span></span>
-      <span class="marquee__item"><span>West St. Paul, Manitoba</span></span>
-      <span class="marquee__item"><span>Details from $150</span></span>
       <span class="marquee__item"><span>Hand-Finished Interiors</span></span>
       <span class="marquee__item"><span>Pet Hair &amp; Odor Removal</span></span>
       <span class="marquee__item"><span>Woman-Owned &amp; Operated</span></span>

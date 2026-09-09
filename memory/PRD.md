@@ -31,6 +31,7 @@ Build a website highlighting my business "Craft Car Detailing" featuring a woman
 - Enquiry form removed (2026-07): booking section now drives call/text to 1-204-999-9010; Expert Ledger retained for past enquiries
 - Gallery section removed (2026-07) per owner request
 - Testimonials/client accolades removed (2026-07) per owner request
+- Static page mode (2026-07): removed Lenis smooth scrolling, hero tilt/parallax/reveal animations, scrolling marquee (now a static ribbon), grain overlay; all remaining framer-motion animations neutralized via MotionConfig reducedMotion
 - Lenis momentum scrolling, framer-motion reveals throughout, data-testids on all interactive elements
 
 ## Backlog
