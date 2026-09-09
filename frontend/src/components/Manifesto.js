@@ -18,7 +18,7 @@ const chapters = [
   {
     n: "03",
     title: "The Woman-Led Difference",
-    body: "In an industry of rushed garages, we built an expert practice. Woman-owned and woman-run, Craft operates on patience, discretion and an obsession with the details others walk past. Your car returns not just clean — composed.",
+    body: "In an industry of rushed garages, I've built an expert practice. Woman-owned and woman-run, Craft operates on patience, discretion and an obsession with the details others walk past. Your car returns not just clean — composed.",
     img: "https://images.unsplash.com/photo-1662316208133-55e8e16f89fb?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODF8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBjYXIlMjBpbnRlcmlvciUyMGxlYXRoZXIlMjBkZXRhaWxpbmd8ZW58MHx8fHwxNzg4ODI0MzkzfDA&ixlib=rb-4.1.0&q=85",
     alt: "Restored saddle tan leather seats in sunlight",
   },
