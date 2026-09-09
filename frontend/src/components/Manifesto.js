@@ -11,7 +11,7 @@ const chapters = [
   {
     n: "02",
     title: "Material Purity",
-    body: "Aniline leather, Alcantara, open-pore wood and wool carpet each demand their own chemistry. We use pH-neutral nourishment, pure steam extraction and ozone ionisation — never silicone dressings that mask rather than mend.",
+    body: "Leather, wood, carpet and trims each demand their own chemistry. I use only the best cleaners, treatments, and conditioners for each project — never mask rather than mend.",
     img: "https://images.unsplash.com/photo-1601673632676-12f89e430aa3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTJ8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBjYXIlMjB1cGhvbHN0ZXJ5JTIwc3RpdGNoJTIwbGVhdGhlcnxlbnwwfHx8fDE3ODg4MjQ0MDF8MA&ixlib=rb-4.1.0&q=85",
     alt: "Restored ribbed cognac leather seat bolster",
   },
