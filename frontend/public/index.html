@@ -1,113 +1,604 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="theme-color" content="#000000" />
-        <meta name="description" content="A product of emergent.sh" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet" />
-        <!--
-        manifest.json provides metadata used when your web app is installed on a
-        user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-        -->
-        <!--
-        Notice the use of %PUBLIC_URL% in the tags above.
-        It will be replaced with the URL of the `public` folder during the build.
-        Only files inside the `public` folder can be referenced from the HTML.
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Deanna's Craft Car Detailing — Woman-Owned Interior Expert, West St. Paul MB</title>
+<meta name="description" content="Deanna's Craft Car Detailing is a woman-owned, woman-run interior car detailing studio in West St. Paul, Manitoba. By appointment only. Call or text 1-204-999-9010." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Outfit:wght@200;300;400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --bg: #0A0A0A;
+    --bg-alt: #121212;
+    --gold: #D4AF37;
+    --sand: #E8D8C8;
+    --text: #F8F8F8;
+    --muted: #A1A1AA;
+    --border: rgba(255, 255, 255, 0.08);
+    --border-gold: rgba(212, 175, 55, 0.25);
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+  ::selection { background: var(--gold); color: var(--bg); }
+  img { display: block; max-width: 100%; }
+  a { color: inherit; text-decoration: none; }
+  button { font: inherit; cursor: pointer; background: none; border: none; color: inherit; }
 
-        Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-        work correctly both with client-side routing and a non-root public URL.
-        Learn how to configure a non-root public URL by running `npm run build`.
-        -->
-        <title>Deanna's Craft Car Detailing — Woman-Owned Interior Expert, West St. Paul MB</title>
-        <script>window.addEventListener("error",function(e){if(e.error instanceof DOMException&&e.error.name==="DataCloneError"&&e.message&&e.message.includes("PerformanceServerTiming")){e.stopImmediatePropagation();e.preventDefault()}},true);</script>
-        <script src="https://assets.emergent.sh/scripts/emergent-main.js"></script>
-    </head>
-    <body>
-        <noscript>You need to enable JavaScript to run this app.</noscript>
-        <div id="root"></div>
-        <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+  .font-display { font-family: 'Playfair Display', 'Cormorant Garamond', serif; }
+  .mono {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: var(--gold);
+  }
+  .mono--muted { color: var(--muted); }
+  .container { max-width: 80rem; margin: 0 auto; padding: 0 1.5rem; }
+  @media (min-width: 1024px) { .container { padding: 0 3rem; } }
+  .section { padding: 7rem 0; }
+  @media (min-width: 1024px) { .section { padding: 10rem 0; } }
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+  /* ---------- Grain overlay ---------- */
+  .grain {
+    position: fixed; inset: -10%; width: 120%; height: 120%;
+    pointer-events: none; z-index: 60; opacity: 0.05;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-        <script>
-            !(function (t, e) {
-                var o, n, p, r;
-                e.__SV ||
-                    ((window.posthog = e),
-                    (e._i = []),
-                    (e.init = function (i, s, a) {
-                        function g(t, e) {
-                            var o = e.split(".");
-                            2 == o.length && ((t = t[o[0]]), (e = o[1])),
-                                (t[e] = function () {
-                                    t.push(
-                                        [e].concat(
-                                            Array.prototype.slice.call(
-                                                arguments,
-                                                0,
-                                            ),
-                                        ),
-                                    );
-                                });
-                        }
-                        ((p = t.createElement("script")).type =
-                            "text/javascript"),
-                            (p.crossOrigin = "anonymous"),
-                            (p.async = !0),
-                            (p.src =
-                                s.api_host.replace(
-                                    ".i.posthog.com",
-                                    "-assets.i.posthog.com",
-                                ) + "/static/array.js"),
-                            (r =
-                                t.getElementsByTagName(
-                                    "script",
-                                )[0]).parentNode.insertBefore(p, r);
-                        var u = e;
-                        for (
-                            void 0 !== a ? (u = e[a] = []) : (a = "posthog"),
-                                u.people = u.people || [],
-                                u.toString = function (t) {
-                                    var e = "posthog";
-                                    return (
-                                        "posthog" !== a && (e += "." + a),
-                                        t || (e += " (stub)"),
-                                        e
-                                    );
-                                },
-                                u.people.toString = function () {
-                                    return u.toString(1) + ".people (stub)";
-                                },
-                                o =
-                                    "init me ws ys ps bs capture je Di ks register register_once register_for_session unregister unregister_for_session Ps getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSurveysLoaded onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey canRenderSurveyAsync identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty Es $s createPersonProfile Is opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing Ss debug xs getPageViewId captureTraceFeedback captureTraceMetric".split(
-                                        " ",
-                                    ),
-                                n = 0;
-                            n < o.length;
-                            n++
-                        )
-                            g(u, o[n]);
-                        e._i.push([i, s, a]);
-                    }),
-                    (e.__SV = 1));
-            })(document, window.posthog || []);
-            posthog.init("phc_DbsPb39SRc8z3EiQ6Dhj6ikv4H4rTKcht9d4sZSesceP", {
-                api_host: "https://ap.emergent.sh",
-                person_profiles: "identified_only", // or 'always' to create profiles for anonymous users as well,
-                session_recording: {
-                    recordCrossOriginIframes: true,
-                    capturePerformance: false,
-                },
-            });
-        </script>
-    </body>
+  /* ---------- Navbar ---------- */
+  .nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 50;
+    background: rgba(10, 10, 10, 0.8);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-bottom: 1px solid var(--border);
+  }
+  .nav__inner { height: 72px; display: flex; align-items: center; justify-content: space-between; }
+  .nav__logo { display: flex; align-items: center; gap: 0.75rem; }
+  .nav__mark {
+    width: 2rem; height: 2rem; border: 1px solid rgba(212,175,55,0.6);
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'Playfair Display', serif; color: var(--gold); font-size: 1.1rem;
+    transition: background 0.3s, color 0.3s;
+  }
+  .nav__logo:hover .nav__mark { background: var(--gold); color: var(--bg); }
+  .nav__name { font-family: 'Playfair Display', serif; font-size: 1.1rem; letter-spacing: 0.02em; }
+  .nav__name em { color: var(--gold); }
+  .nav__links { display: none; gap: 2.5rem; }
+  @media (min-width: 768px) { .nav__links { display: flex; } }
+  .nav__links a { transition: color 0.3s; }
+  .nav__links a:hover { color: var(--gold); }
+  .btn {
+    font-family: 'JetBrains Mono', monospace; font-size: 0.7rem;
+    letter-spacing: 0.28em; text-transform: uppercase;
+    padding: 1rem 2.25rem; display: inline-block;
+    transition: background 0.3s, color 0.3s, border-color 0.3s;
+  }
+  .btn--gold { background: var(--gold); color: var(--bg); }
+  .btn--gold:hover { background: var(--sand); }
+  .btn--outline { border: 1px solid rgba(255,255,255,0.2); color: var(--text); }
+  .btn--outline:hover { border-color: rgba(212,175,55,0.6); color: var(--gold); }
+  .nav .btn { padding: 0.75rem 1.5rem; }
+
+  /* ---------- Hero ---------- */
+  .hero {
+    min-height: 100vh; display: flex; align-items: center;
+    position: relative; overflow: hidden; padding-top: 72px;
+  }
+  .hero__bg { position: absolute; inset: 0; z-index: 0; }
+  .hero__bg img { width: 100%; height: 100%; object-fit: cover; opacity: 0.25; }
+  .hero__bg::after {
+    content: ''; position: absolute; inset: 0;
+    background: linear-gradient(to bottom, rgba(10,10,10,0.7), rgba(10,10,10,0.85), var(--bg));
+  }
+  .hero__grid {
+    position: relative; z-index: 1; width: 100%;
+    display: grid; gap: 4rem; align-items: center; padding: 5rem 0;
+  }
+  @media (min-width: 1024px) { .hero__grid { grid-template-columns: 1.15fr 0.85fr; } }
+  .hero__badge {
+    display: inline-flex; align-items: center; gap: 0.75rem;
+    border: 1px solid rgba(212,175,55,0.3); padding: 0.6rem 1rem; margin-bottom: 2.5rem;
+  }
+  .hero__badge::before { content: '✦'; color: var(--gold); font-size: 0.8rem; }
+  .hero h1 {
+    font-family: 'Playfair Display', serif; font-weight: 400;
+    font-size: clamp(2.75rem, 7vw, 6rem);
+    line-height: 1.04; letter-spacing: -0.02em;
+  }
+  .hero h1 em { color: var(--gold); }
+  .hero__lede {
+    margin-top: 2rem; max-width: 28rem; color: var(--muted);
+    font-size: 1.05rem; line-height: 1.75;
+  }
+  .hero__ctas { margin-top: 3rem; display: flex; flex-wrap: wrap; gap: 1.25rem; }
+  .hero__card { display: none; position: relative; }
+  @media (min-width: 1024px) { .hero__card { display: block; } }
+  .hero__card img {
+    width: 100%; aspect-ratio: 4/5; object-fit: cover;
+    box-shadow: 0 0 0 1px var(--border-gold), 0 30px 80px -20px rgba(0,0,0,0.8);
+  }
+  .hero__card figcaption {
+    position: absolute; bottom: 0; left: 0; right: 0; padding: 1.5rem;
+    background: linear-gradient(to top, var(--bg), transparent);
+  }
+
+  /* ---------- Marquee ---------- */
+  .marquee {
+    border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);
+    background: var(--bg-alt); padding: 1.5rem 0; overflow: hidden;
+  }
+  .marquee__track { display: flex; flex-wrap: wrap; justify-content: center; row-gap: 0.5rem; padding: 0 1.5rem; }
+  .marquee__item {
+    display: flex; align-items: center; white-space: nowrap;
+    font-family: 'Playfair Display', serif; font-style: italic;
+    font-size: 1.35rem; color: rgba(232,216,200,0.8);
+  }
+  .marquee__item span { padding: 0 2rem; }
+  .marquee__item::after { content: '✳'; color: var(--gold); font-size: 0.9rem; }
+
+  /* ---------- Section headers ---------- */
+  .kicker { margin-bottom: 1.5rem; }
+  .h2 {
+    font-family: 'Playfair Display', serif; font-weight: 400;
+    font-size: clamp(1.75rem, 4vw, 3rem); line-height: 1.2; letter-spacing: -0.01em;
+  }
+  .h2 em { color: var(--gold); }
+
+  /* ---------- Manifesto ---------- */
+  .chapter {
+    display: grid; gap: 3rem; align-items: center;
+    margin-top: 7rem;
+  }
+  @media (min-width: 1024px) { .chapter { grid-template-columns: 1fr 1fr; gap: 5rem; } }
+  .chapter__media { position: relative; overflow: hidden; }
+  .chapter__media img {
+    width: 100%; aspect-ratio: 4/3; object-fit: cover;
+    transition: transform 0.7s ease;
+  }
+  .chapter__media:hover img { transform: scale(1.05); }
+  .chapter__media::after {
+    content: ''; position: absolute; inset: 0;
+    background: linear-gradient(to top, rgba(10,10,10,0.6), transparent 60%);
+  }
+  .chapter__tag {
+    position: absolute; top: 1.25rem; left: 1.25rem; z-index: 1;
+    background: rgba(10,10,10,0.7); backdrop-filter: blur(8px); padding: 0.5rem 0.75rem;
+  }
+  .chapter__num {
+    font-family: 'Playfair Display', serif; font-size: 5rem; line-height: 1;
+    color: rgba(255,255,255,0.07); display: block;
+  }
+  .chapter h3 {
+    font-family: 'Playfair Display', serif; font-weight: 400;
+    font-size: clamp(1.5rem, 3vw, 2.25rem); margin: 0.5rem 0 1.5rem;
+  }
+  .chapter p { color: var(--muted); line-height: 1.8; max-width: 32rem; }
+  .chapter__rule { margin-top: 2rem; height: 1px; width: 6rem; background: rgba(212,175,55,0.5); }
+  @media (min-width: 1024px) {
+    .chapter--flip .chapter__media { order: 2; }
+  }
+
+  /* ---------- Services ---------- */
+  .services { background: var(--bg-alt); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+  .services__head { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 2rem; margin-bottom: 5rem; }
+  .services__note { color: var(--muted); max-width: 22rem; font-size: 0.95rem; line-height: 1.7; }
+  .service { border-bottom: 1px solid var(--border); }
+  .service:first-of-type { border-top: 1px solid var(--border); }
+  .service summary {
+    list-style: none; cursor: pointer;
+    display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 1.25rem;
+    padding: 2rem 0;
+  }
+  @media (min-width: 640px) { .service summary { grid-template-columns: 5rem 1fr auto 3rem; gap: 2rem; } }
+  .service summary::-webkit-details-marker { display: none; }
+  .service__roman {
+    font-family: 'Playfair Display', serif; font-style: italic;
+    color: rgba(212,175,55,0.7); font-size: 1.1rem; display: none;
+  }
+  @media (min-width: 640px) { .service__roman { display: block; } }
+  .service__name {
+    font-family: 'Playfair Display', serif; font-weight: 400;
+    font-size: clamp(1.25rem, 2.5vw, 1.9rem); transition: color 0.3s;
+  }
+  .service summary:hover .service__name,
+  .service[open] .service__name { color: var(--gold); }
+  .service__blurb { color: var(--muted); font-size: 0.9rem; margin-top: 0.4rem; }
+  .service__price { text-align: right; }
+  .service__dur { color: var(--muted); font-size: 0.75rem; margin-top: 0.25rem; }
+  .service__plus {
+    width: 1.5rem; height: 1.5rem; position: relative; justify-self: end;
+    transition: transform 0.4s;
+  }
+  .service__plus::before, .service__plus::after {
+    content: ''; position: absolute; background: var(--gold);
+    top: 50%; left: 50%; width: 1.25rem; height: 1px;
+    transform: translate(-50%, -50%);
+  }
+  .service__plus::after { transform: translate(-50%, -50%) rotate(90deg); transition: transform 0.4s; }
+  .service[open] .service__plus { transform: rotate(45deg); }
+  .service__body { padding: 0 0 2.5rem; }
+  @media (min-width: 640px) { .service__body { padding-left: 5rem; } }
+  .service__list { display: grid; gap: 0.75rem 2.5rem; }
+  @media (min-width: 640px) { .service__list { grid-template-columns: 1fr 1fr; } }
+  .service__list li {
+    list-style: none; color: rgba(232,216,200,0.85); font-size: 0.9rem;
+    display: flex; align-items: center; gap: 0.75rem;
+  }
+  .service__list li::before { content: ''; width: 4px; height: 4px; background: var(--gold); flex-shrink: 0; }
+  .service__cta { margin-top: 1.75rem; display: inline-block; border: 1px solid rgba(212,175,55,0.5); color: var(--gold); padding: 0.9rem 1.75rem; }
+  .service__cta:hover { background: var(--gold); color: var(--bg); }
+
+  /* ---------- Gallery ---------- */
+  .gallery__grid {
+    display: grid; gap: 1rem; margin-top: 5rem;
+    grid-template-columns: 1fr; grid-auto-rows: 260px;
+  }
+  @media (min-width: 640px) { .gallery__grid { grid-template-columns: 1fr 1fr; } }
+  @media (min-width: 1024px) {
+    .gallery__grid { grid-template-columns: repeat(3, 1fr); }
+    .gallery__item--big { grid-column: span 2; grid-row: span 2; }
+    .gallery__item--wide { grid-column: span 2; }
+  }
+  .gallery__item { position: relative; overflow: hidden; display: block; }
+  .gallery__item img {
+    position: absolute; inset: 0; width: 100%; height: 100%;
+    object-fit: cover; transition: transform 0.7s ease;
+  }
+  .gallery__item:hover img { transform: scale(1.05); }
+  .gallery__item::before {
+    content: ''; position: absolute; inset: 0; z-index: 1;
+    background: linear-gradient(to top, rgba(10,10,10,0.85), transparent 55%);
+  }
+  .gallery__item::after {
+    content: ''; position: absolute; inset: 0; z-index: 1;
+    border: 1px solid transparent; transition: border-color 0.5s;
+  }
+  .gallery__item:hover::after { border-color: rgba(212,175,55,0.4); }
+  .gallery__cap { position: absolute; bottom: 0; left: 0; right: 0; z-index: 2; padding: 1.5rem; }
+  .gallery__cap .mono { margin-bottom: 0.5rem; display: block; }
+  .gallery__cap p { font-family: 'Playfair Display', serif; font-size: 1.15rem; }
+
+  /* ---------- Testimonials ---------- */
+  .testimonials { background: var(--bg-alt); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+  .quotes { display: grid; gap: 1px; background: var(--border); border: 1px solid var(--border); margin-top: 5rem; }
+  @media (min-width: 1024px) { .quotes { grid-template-columns: 1fr 1fr; } }
+  .quote { background: var(--bg-alt); padding: 3rem; transition: background 0.4s; }
+  .quote:hover { background: #161617; }
+  .quote__mark { font-family: 'Playfair Display', serif; font-size: 3rem; color: rgba(212,175,55,0.5); line-height: 1; }
+  .quote p {
+    font-family: 'Playfair Display', serif; font-style: italic; font-weight: 400;
+    font-size: 1.2rem; line-height: 1.7; color: var(--sand); margin: 1rem 0 1.75rem;
+  }
+  .quote footer .mono { color: var(--text); }
+  .quote footer span { color: var(--muted); font-size: 0.85rem; display: block; margin-top: 0.3rem; }
+
+  /* ---------- Enquiry ---------- */
+  .enquiry__grid { display: grid; gap: 4rem; }
+  @media (min-width: 1024px) { .enquiry__grid { grid-template-columns: 0.9fr 1.1fr; gap: 6rem; } }
+  .enquiry__lede { margin-top: 1.5rem; color: var(--muted); line-height: 1.8; max-width: 28rem; }
+  .contact-list { margin-top: 3rem; display: grid; gap: 1.5rem; }
+  .contact-list__row { display: flex; align-items: center; gap: 1.25rem; }
+  .contact-list__icon { color: var(--gold); width: 1rem; text-align: center; }
+  .contact-list__row p { margin-top: 0.25rem; }
+  .contact-list a:hover { color: var(--gold); }
+  .form {
+    background: var(--bg-alt); border: 1px solid var(--border);
+    padding: 2rem; display: grid; gap: 1.5rem;
+  }
+  @media (min-width: 640px) { .form { padding: 3rem; } }
+  .form__row { display: grid; gap: 1.5rem; }
+  @media (min-width: 640px) { .form__row { grid-template-columns: 1fr 1fr; } }
+  .form label { display: block; margin-bottom: 0.75rem; }
+  .form input, .form select, .form textarea {
+    width: 100%; background: var(--bg); border: 1px solid rgba(255,255,255,0.12);
+    color: var(--text); font-family: 'Outfit', sans-serif; font-weight: 300;
+    padding: 1rem 1.25rem; font-size: 0.95rem;
+    transition: border-color 0.3s; color-scheme: dark;
+  }
+  .form textarea { resize: none; }
+  .form input:focus, .form select:focus, .form textarea:focus {
+    outline: none; border-color: rgba(212,175,55,0.7);
+  }
+  .form input::placeholder, .form textarea::placeholder { color: rgba(161,161,170,0.5); }
+  .form input:disabled, .form select:disabled, .form textarea:disabled { opacity: 0.55; cursor: not-allowed; }
+  .form__submit { width: 100%; padding: 1.25rem; }
+  .form__note {
+    text-align: center; color: var(--muted); font-size: 0.8rem; margin-top: -0.5rem;
+  }
+  .form__note a { color: var(--gold); }
+
+  /* ---------- Footer ---------- */
+  footer { border-top: 1px solid var(--border); }
+  .footer__word {
+    font-family: 'Playfair Display', serif; font-weight: 400;
+    font-size: clamp(2.5rem, 9vw, 6.5rem); line-height: 0.98; letter-spacing: -0.01em;
+    padding-top: 6rem;
+  }
+  .footer__word em { color: var(--gold); }
+  .footer__cols {
+    margin-top: 4rem; padding-top: 3rem; border-top: 1px solid var(--border);
+    display: grid; gap: 3rem;
+  }
+  @media (min-width: 640px) { .footer__cols { grid-template-columns: repeat(3, 1fr); } }
+  .footer__cols .mono { display: block; margin-bottom: 1.25rem; }
+  .footer__cols p { color: var(--muted); font-size: 0.9rem; line-height: 1.8; }
+  .footer__cols a { color: var(--muted); font-size: 0.9rem; display: block; margin-bottom: 0.6rem; transition: color 0.3s; }
+  .footer__cols a:hover { color: var(--gold); }
+  .footer__base {
+    margin-top: 4rem; padding: 2rem 0; border-top: 1px solid var(--border);
+    display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem;
+    color: rgba(161,161,170,0.6); font-size: 0.75rem;
+  }
+  .service summary { pointer-events: none; }
+  .service__plus { display: none; }
+</style>
+</head>
+<body>
+
+<div class="grain"></div>
+
+<!-- ================= NAVBAR ================= -->
+<header class="nav">
+  <div class="container nav__inner">
+    <a class="nav__logo" href="#top">
+      <span class="nav__mark">C</span>
+      <span class="nav__name">Deanna's Craft <em>Car Detailing</em></span>
+    </a>
+    <nav class="nav__links">
+      <a class="mono mono--muted" href="#manifesto">Manifesto</a>
+      <a class="mono mono--muted" href="#services">Services</a>
+    </nav>
+    <a class="btn btn--gold" href="#enquiry">Book Session</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ================= HERO ================= -->
+  <section class="hero">
+    <div class="hero__bg">
+      <img src="https://images.unsplash.com/photo-1625690180114-5530b1304127?q=80&w=1920&auto=format&fit=crop" alt="" />
+    </div>
+    <div class="container hero__grid">
+      <div>
+        <p class="hero__badge mono">Woman-Owned &amp; Operated Interior Expert</p>
+        <h1>
+          The Interior,<br />
+          Elevated to<br />
+          <em>an Art Form.</em>
+        </h1>
+        <p class="hero__lede">
+          Deanna's Craft Car Detailing is a woman-owned studio devoted to a single discipline: the
+          meticulous restoration and preservation of automotive interiors. Every stitch,
+          every hide, every surface — finished by hand.
+        </p>
+        <div class="hero__ctas">
+          <a class="btn btn--gold" href="#enquiry">Book a Session</a>
+          <a class="btn btn--outline" href="#manifesto">Explore the Craft</a>
+        </div>
+      </div>
+      <figure class="hero__card">
+        <img src="https://images.unsplash.com/photo-1625690180114-5530b1304127?q=80&w=1920&auto=format&fit=crop" alt="Modern luxury car interior" />
+        <figcaption><span class="mono">Nº 001 — Modern Cabin Study</span></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ================= MANIFESTO ================= -->
+  <section class="section" id="manifesto">
+    <div class="container">
+      <p class="mono kicker">The Manifesto</p>
+      <h2 class="h2" style="max-width: 40rem;">Three chapters on why <em>interiors</em> deserve reverence.</h2>
+
+      <article class="chapter">
+        <div class="chapter__media">
+          <span class="chapter__tag mono">Chapter 01</span>
+          <img src="https://images.unsplash.com/photo-1549064233-945d7063292f?q=80&w=1600&auto=format&fit=crop" alt="Black and red two-tone car interior in daylight" loading="lazy" />
+        </div>
+        <div>
+          <span class="chapter__num">01</span>
+          <h3>The Touch of Care</h3>
+          <p>A cabin is the most intimate space a machine offers. We treat it as such — working slowly, by hand, with brushes and steam rather than harsh machines. Nothing is rushed; every seam is read like a page.</p>
+          <div class="chapter__rule"></div>
+        </div>
+      </article>
+
+      <article class="chapter chapter--flip">
+        <div class="chapter__media">
+          <span class="chapter__tag mono">Chapter 02</span>
+          <img src="https://images.unsplash.com/photo-1671539272911-860f2445e106?q=80&w=1600&auto=format&fit=crop" alt="Spacious three-row SUV interior with the door open" loading="lazy" />
+        </div>
+        <div>
+          <span class="chapter__num">02</span>
+          <h3>Material Purity</h3>
+          <p>Leather, wood, carpet and trims each demand their own chemistry. I use only the best cleaners, treatments, and conditioners for each project — never mask rather than mend.</p>
+          <div class="chapter__rule"></div>
+        </div>
+      </article>
+
+      <article class="chapter">
+        <div class="chapter__media">
+          <span class="chapter__tag mono">Chapter 03</span>
+          <img src="https://images.unsplash.com/photo-1631433048545-6c18c7fc9bde?q=80&w=1600&auto=format&fit=crop" alt="Modern Ford truck cab interior with seats, dashboard and infotainment screen" loading="lazy" />
+        </div>
+        <div>
+          <span class="chapter__num">03</span>
+          <h3>The Woman-Led Difference</h3>
+          <p>In an industry of rushed garages, I've built an expert practice. Woman-owned and woman-run, Craft operates on patience, discretion and an obsession with the details others walk past. Your car returns not just clean — composed.</p>
+          <div class="chapter__rule"></div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ================= SERVICES ================= -->
+  <section class="section services" id="services">
+    <div class="container">
+      <div class="services__head">
+        <div>
+          <p class="mono kicker">The Services</p>
+          <h2 class="h2">Considered care, <em>honest pricing</em>.</h2>
+        </div>
+        <p class="services__note">One woman, one cabin at a time — by appointment at our West St. Paul studio.</p>
+      </div>
+
+      <details class="service" open>
+        <summary>
+          <span class="service__roman">I</span>
+          <span>
+            <span class="service__name">Craft Interior Detailing</span>
+            <span class="service__blurb" style="display:block;">A complete interior refresh — every surface cleaned, dressed and hand-finished.</span>
+          </span>
+          <span class="service__price">
+            <span class="mono" style="display:block;">Starts at $150</span>
+            <span class="service__dur">Interior, by appointment</span>
+          </span>
+          <span class="service__plus"></span>
+        </summary>
+        <div class="service__body">
+          <ul class="service__list">
+            <li>Full cabin vacuum &amp; wipe-down</li>
+            <li>Dash, console &amp; trim detailing</li>
+            <li>Interior glass polished</li>
+            <li>Mats &amp; carpets cleaned</li>
+          </ul>
+          <a class="service__cta mono" href="#enquiry">Reserve this Service</a>
+        </div>
+      </details>
+
+      <details class="service" open>
+        <summary>
+          <span class="service__roman">II</span>
+          <span>
+            <span class="service__name">Pet Hair, Oil &amp; Sap Removal</span>
+            <span class="service__blurb" style="display:block;">Stubborn pet hair, oil spots and tree sap lifted from fabric and carpet.</span>
+          </span>
+          <span class="service__price">
+            <span class="mono" style="display:block;">Add-on from $25</span>
+            <span class="service__dur">With any detail</span>
+          </span>
+          <span class="service__plus"></span>
+        </summary>
+        <div class="service__body">
+          <ul class="service__list">
+            <li>Deep pet-hair extraction</li>
+            <li>Oil &amp; grease spot treatment</li>
+            <li>Sap mark removal</li>
+            <li>Fabric-safe finish</li>
+          </ul>
+          <a class="service__cta mono" href="#enquiry">Reserve this Service</a>
+        </div>
+      </details>
+
+      <details class="service" open>
+        <summary>
+          <span class="service__roman">III</span>
+          <span>
+            <span class="service__name">Odor Removal</span>
+            <span class="service__blurb" style="display:block;">Smoke, pet and mildew odours neutralised — never masked.</span>
+          </span>
+          <span class="service__price">
+            <span class="mono" style="display:block;">Add-on from $25</span>
+            <span class="service__dur">With any detail</span>
+          </span>
+          <span class="service__plus"></span>
+        </summary>
+        <div class="service__body">
+          <ul class="service__list">
+            <li>Full-cabin odour treatment</li>
+            <li>Vent &amp; fabric refresh</li>
+            <li>Neutral, fragrance-free result</li>
+          </ul>
+          <a class="service__cta mono" href="#enquiry">Reserve this Service</a>
+        </div>
+      </details>
+    </div>
+  </section>
+
+  <!-- ================= ENQUIRY ================= -->
+  <section class="section" id="enquiry">
+    <div class="container enquiry__grid">
+      <div>
+        <p class="mono kicker">Enquiries &amp; Bookings</p>
+        <h2 class="h2">Reserve your <em>session</em>.</h2>
+        <p class="enquiry__lede">
+          Tell us about your vehicle and its interior. Every enquiry is read personally — expect a
+          considered reply, never an automated quote.
+        </p>
+        <div class="contact-list">
+          <div class="contact-list__row">
+            <span class="contact-list__icon">&#9742;</span>
+            <div>
+              <span class="mono mono--muted">Call or Text</span>
+              <p><a href="tel:+12049999010">1-204-999-9010</a></p>
+            </div>
+          </div>
+          <div class="contact-list__row">
+            <span class="contact-list__icon">&#9719;</span>
+            <div>
+              <span class="mono mono--muted">Hours</span>
+              <p>By Appointment Only</p>
+            </div>
+          </div>
+          <div class="contact-list__row">
+            <span class="contact-list__icon">&#8982;</span>
+            <div>
+              <span class="mono mono--muted">The Studio</span>
+              <p>9 Third Street, Unit 1, West St. Paul, Manitoba</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="form" style="align-content:center; text-align:center;">
+        <p class="mono">By Appointment Only</p>
+        <p style="font-family:'Playfair Display',serif; font-size:1.6rem; line-height:1.45; color:var(--sand);">&ldquo;Tell me about your vehicle — I'll take care of the rest.&rdquo;</p>
+        <p class="mono mono--muted">— Deanna</p>
+        <p style="color:var(--muted); line-height:1.8; font-size:0.95rem;">Every booking begins with a conversation. Call or text directly to reserve your session.</p>
+        <a class="btn btn--gold form__submit" href="tel:+12049999010">Call or Text 1-204-999-9010</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <div class="container">
+    <h2 class="footer__word">Deanna's Craft <em>Car Detailing</em></h2>
+    <div class="footer__cols">
+      <div>
+        <span class="mono">The Studio</span>
+        <p>9 Third Street, Unit 1<br />West St. Paul, Manitoba<br />By appointment only</p>
+      </div>
+      <div>
+        <span class="mono">Concierge</span>
+        <p><a href="tel:+12049999010">1-204-999-9010</a><br />Call or text to book</p>
+      </div>
+      <div>
+        <span class="mono">Expert</span>
+        <a href="#manifesto">Manifesto</a>
+        <a href="#services">Services</a>
+        <a href="#enquiry">Book a Session</a>
+      </div>
+    </div>
+    <div class="footer__base">
+      <span>&copy; 2026 Deanna's Craft Car Detailing — Woman-Owned &amp; Operated Interior Expert</span>
+    </div>
+  </div>
+</footer>
+
+<div id="root" style="display:none"></div>
+</body>
 </html>

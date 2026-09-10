@@ -33,6 +33,7 @@ Build a website highlighting my business "Craft Car Detailing" featuring a woman
 - Testimonials/client accolades removed (2026-07) per owner request
 - Static page mode (2026-07): removed Lenis smooth scrolling, hero tilt/parallax/reveal animations, scrolling marquee (now a static ribbon), grain overlay; all remaining framer-motion animations neutralized via MotionConfig reducedMotion
 - Ribbon and Expert Ledger viewer removed entirely (2026-07) per owner request; header/footer links pruned to existing sections only
+- Site converted to a fully static landing page (2026-07): the standalone HTML now serves as the homepage; React renders nothing; service rows permanently expanded
 - Lenis momentum scrolling, framer-motion reveals throughout, data-testids on all interactive elements
 
 ## Backlog

@@ -340,6 +340,8 @@
     display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem;
     color: rgba(161,161,170,0.6); font-size: 0.75rem;
   }
+  .service summary { pointer-events: none; }
+  .service__plus { display: none; }
 </style>
 </head>
 <body>
@@ -475,7 +477,7 @@
         </div>
       </details>
 
-      <details class="service">
+      <details class="service" open>
         <summary>
           <span class="service__roman">II</span>
           <span>
@@ -499,7 +501,7 @@
         </div>
       </details>
 
-      <details class="service">
+      <details class="service" open>
         <summary>
           <span class="service__roman">III</span>
           <span>
